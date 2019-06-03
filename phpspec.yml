@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: ProjectCarrasco
+        psr4_prefix: ProjectCarrasco
+        src_path: app

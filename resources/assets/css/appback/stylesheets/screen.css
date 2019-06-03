@@ -1,0 +1,744 @@
+/* line 6, ../sass/screen.scss */
+body {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: #F2F1EF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+/* line 14, ../sass/screen.scss */
+.navbar-default {
+  background-color: #000;
+}
+/* line 16, ../sass/screen.scss */
+.navbar-default .navbar-brand {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 32px;
+  color: #f7f7f7;
+}
+/* line 21, ../sass/screen.scss */
+.navbar-default .navbar-brand img {
+  height: 40px;
+  margin-top: 5px;
+}
+/* line 28, ../sass/screen.scss */
+.navbar-default ul.nav > li > a {
+  color: #f7f7f7;
+}
+/* line 30, ../sass/screen.scss */
+.navbar-default ul.nav > li > a:hover {
+  background-color: #2C3E50 !important;
+  color: #f7f7f7 !important;
+}
+/* line 36, ../sass/screen.scss */
+.navbar-default ul.nav > li.active > a, .navbar-default ul.nav > li.open > a {
+  color: #fff !important;
+  background-color: #2C3E50 !important;
+}
+
+/* line 45, ../sass/screen.scss */
+.left {
+  float: left;
+}
+
+/* line 49, ../sass/screen.scss */
+.right {
+  float: right;
+}
+
+/* line 54, ../sass/screen.scss */
+.quicktools div {
+  margin-bottom: 10px;
+}
+
+/* line 59, ../sass/screen.scss */
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+  display: block;
+  margin: 0;
+}
+
+/* line 65, ../sass/screen.scss */
+.panel-body h2 {
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+/* line 70, ../sass/screen.scss */
+form i.required {
+  color: red !important;
+}
+
+/* line 75, ../sass/screen.scss */
+.dashboard .block {
+  margin-top: 20px;
+}
+/* line 78, ../sass/screen.scss */
+.dashboard .tile {
+  color: #fff;
+  width: 100%;
+  display: block;
+}
+/* line 82, ../sass/screen.scss */
+.dashboard .tile .tile-header {
+  padding-top: 5px;
+}
+/* line 84, ../sass/screen.scss */
+.dashboard .tile .tile-header h3 {
+  font-size: 50px;
+  padding-left: 15px;
+}
+/* line 88, ../sass/screen.scss */
+.dashboard .tile .tile-header p {
+  padding-left: 15px;
+}
+/* line 92, ../sass/screen.scss */
+.dashboard .tile .tile-footer {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.15);
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+/* line 97, ../sass/screen.scss */
+.dashboard .tile .tile-footer a {
+  color: #fff;
+}
+/* line 101, ../sass/screen.scss */
+.dashboard .tile.blue {
+  background: #00c0ef;
+}
+/* line 104, ../sass/screen.scss */
+.dashboard .tile.red {
+  background: #dd4b39;
+}
+/* line 107, ../sass/screen.scss */
+.dashboard .tile.green {
+  background: #00a65a;
+}
+/* line 110, ../sass/screen.scss */
+.dashboard .tile.orange {
+  background: #f39c12;
+}
+/* line 114, ../sass/screen.scss */
+.dashboard #visitor-map {
+  height: 350px;
+  width: 100%;
+}
+/* line 118, ../sass/screen.scss */
+.dashboard .block-panel {
+  height: 430px;
+}
+/* line 121, ../sass/screen.scss */
+.dashboard .latest-users {
+  overflow-y: auto;
+}
+/* line 125, ../sass/screen.scss */
+.dashboard .panel-body h1, .dashboard .panel-body h3 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+/* line 132, ../sass/screen.scss */
+#main-footer {
+  padding: 5px 10px;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-top: 1px solid #e8e8e8;
+  z-index: 9;
+}
+
+/* line 143, ../sass/screen.scss */
+.products-list {
+  padding: 0px;
+}
+/* line 146, ../sass/screen.scss */
+.products-list > div {
+  float: left;
+}
+
+/* line 150, ../sass/screen.scss */
+.product-tile-wrapper {
+  padding: 0px 5px;
+}
+/* line 152, ../sass/screen.scss */
+.product-tile-wrapper .product-tile {
+  margin-bottom: 20px;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid #e8e8e8;
+  padding: 5px;
+}
+/* line 158, ../sass/screen.scss */
+.product-tile-wrapper .product-tile .product-discounts {
+  position: absolute;
+  top: 5px;
+  width: 100%;
+}
+/* line 162, ../sass/screen.scss */
+.product-tile-wrapper .product-tile .product-discounts a, .product-tile-wrapper .product-tile .product-discounts span {
+  position: absolute;
+  padding: 2px 4px;
+  font-size: 12px;
+  color: #fff;
+  z-index: 9;
+}
+/* line 169, ../sass/screen.scss */
+.product-tile-wrapper .product-tile .product-discounts .discount {
+  right: 10px;
+  background-color: #ff5732;
+}
+/* line 173, ../sass/screen.scss */
+.product-tile-wrapper .product-tile .product-discounts .coupon {
+  left: 10px;
+  background-color: #1e73be;
+}
+/* line 178, ../sass/screen.scss */
+.product-tile-wrapper .product-tile .product-image {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background: url("https://www.pursury.com/images/loader1.gif") no-repeat center scroll transparent;
+  height: 190px;
+}
+/* line 184, ../sass/screen.scss */
+.product-tile-wrapper .product-tile .product-image.no-back {
+  background: none;
+}
+/* line 187, ../sass/screen.scss */
+.product-tile-wrapper .product-tile .product-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* line 191, ../sass/screen.scss */
+.product-tile-wrapper .product-tile .product-image .overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: transparent;
+}
+/* line 198, ../sass/screen.scss */
+.product-tile-wrapper .product-tile .product-image .overlay .info {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+/* line 202, ../sass/screen.scss */
+.product-tile-wrapper .product-tile .product-image .overlay .info > div {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 3px;
+  color: #fff;
+  background-color: #1e73be;
+  display: block;
+  text-align: center;
+}
+/* line 214, ../sass/screen.scss */
+.product-tile-wrapper .product-tile .product-title {
+  margin-top: 5px;
+  display: block;
+  width: 100%;
+}
+/* line 218, ../sass/screen.scss */
+.product-tile-wrapper .product-tile .product-title a {
+  color: #000;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  white-space: nowrap;
+  -ms-text-overflow: ellipsis !important;
+  text-overflow: ellipsis !important;
+  overflow: hidden;
+}
+/* line 229, ../sass/screen.scss */
+.product-tile-wrapper .product-tile .product-price {
+  text-align: right;
+  color: #ff5732;
+  font-size: 16px;
+  line-height: 16px;
+}
+/* line 234, ../sass/screen.scss */
+.product-tile-wrapper .product-tile .product-price .old-price {
+  text-decoration: line-through;
+  color: #000;
+  font-size: 15px;
+  line-height: 16px;
+}
+/* line 243, ../sass/screen.scss */
+.product-tile-wrapper .product-tile:hover .product-image .overlay {
+  display: block;
+}
+
+/* line 251, ../sass/screen.scss */
+.action-col {
+  padding: 0px 5px;
+  width: 1%;
+}
+
+/* line 255, ../sass/screen.scss */
+.batch-actions {
+  margin-top: 20px;
+}
+
+/* line 258, ../sass/screen.scss */
+div.cluster-info {
+  padding-left: 10px;
+}
+/* line 260, ../sass/screen.scss */
+div.cluster-info.red {
+  border-left: 5px solid red;
+}
+/* line 263, ../sass/screen.scss */
+div.cluster-info.yellow {
+  border-left: 5px solid yellow;
+}
+/* line 266, ../sass/screen.scss */
+div.cluster-info.green {
+  border-left: 5px solid green;
+}
+
+/* line 270, ../sass/screen.scss */
+.search-engine-actions {
+  width: 100%;
+}
+/* line 272, ../sass/screen.scss */
+.search-engine-actions li {
+  width: 100%;
+}
+/* line 274, ../sass/screen.scss */
+.search-engine-actions li a {
+  width: 100%;
+  display: block;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin-bottom: 10px;
+}
+
+/* line 287, ../sass/screen.scss */
+.log-list li .list-group-item {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin-bottom: 1px;
+}
+/* line 292, ../sass/screen.scss */
+.log-list li .list-group-item.llv-active {
+  background-color: #1e73be;
+  color: #fff;
+}
+
+/* line 300, ../sass/screen.scss */
+.select2-container-multi .select2-choices .select2-search-choice {
+  background-color: #e4e4e4 !important;
+  background-image: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 308, ../sass/screen.scss */
+label.error {
+  color: red;
+}
+
+/* line 312, ../sass/screen.scss */
+.category-sorting-tree-wrapper {
+  border: 1px solid #e8e8e8;
+  padding: 15px;
+  min-height: 450px;
+  position: relative;
+}
+/* line 317, ../sass/screen.scss */
+.category-sorting-tree-wrapper button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+/* line 324, ../sass/screen.scss */
+.dropdown-blueprint, .single-item-blueprint {
+  display: none !important;
+}
+
+/* line 327, ../sass/screen.scss */
+.no-items-row {
+  display: none;
+}
+
+/* line 330, ../sass/screen.scss */
+.no-items .no-items-row {
+  display: table-row;
+}
+
+/* line 334, ../sass/screen.scss */
+.home-edit-section-title {
+  width: 100%;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #e8e8e8;
+  color: #696969;
+  padding-left: 10px;
+}
+/* line 343, ../sass/screen.scss */
+.home-edit-section-title:hover, .home-edit-section-title:active, .home-edit-section-title:focus {
+  color: #363636;
+}
+
+/* line 348, ../sass/screen.scss */
+.home-edit-section .section-body {
+  padding: 10px;
+}
+/* line 350, ../sass/screen.scss */
+.home-edit-section .section-body legend {
+  font-size: 15px;
+}
+
+/* line 356, ../sass/screen.scss */
+.home-edit-panel .panel-body {
+  padding: 0px;
+}
+
+/* line 360, ../sass/screen.scss */
+.home-navigation-items {
+  margin: 0px;
+  list-style: none;
+  width: 100%;
+  padding: 0px;
+  padding-right: 10px;
+}
+/* line 366, ../sass/screen.scss */
+.home-navigation-items li {
+  width: 100%;
+  padding: 4px 0px;
+  border-left: 2px solid transparent;
+  padding-left: 5px;
+  position: relative;
+}
+/* line 372, ../sass/screen.scss */
+.home-navigation-items li:hover {
+  border-left-color: #1b1918;
+  cursor: pointer;
+}
+/* line 377, ../sass/screen.scss */
+.home-navigation-items li.active:after {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: -10px;
+  top: 6px;
+  content: '';
+  display: block;
+  border-top: 7px solid transparent;
+  border-left: 7px solid #000;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+}
+/* line 393, ../sass/screen.scss */
+.home-navigation-items li span.select-trigger:hover {
+  text-decoration: underline;
+}
+/* line 400, ../sass/screen.scss */
+.home-navigation-items.first-list {
+  background-color: rgba(127, 140, 141, 0.2);
+}
+/* line 403, ../sass/screen.scss */
+.home-navigation-items.second-list {
+  background-color: rgba(149, 165, 166, 0.2);
+}
+/* line 406, ../sass/screen.scss */
+.home-navigation-items.third-list {
+  background-color: rgba(189, 195, 199, 0.2);
+}
+
+/* line 411, ../sass/screen.scss */
+.remove-trigger {
+  margin-right: 5px;
+}
+
+/* line 415, ../sass/screen.scss */
+button.link-button {
+  border: none;
+  background: none;
+  color: #000;
+  padding: 0px;
+}
+/* line 420, ../sass/screen.scss */
+button.link-button:hover, button.link-button:active, button.link-button:focus {
+  border: none;
+  background: none;
+  color: #1a1a1a;
+}
+
+/* line 427, ../sass/screen.scss */
+.bordered-col {
+  border-right: 1px solid #e8e8e8;
+}
+
+/* line 431, ../sass/screen.scss */
+.navigation-edit-wrapper {
+  min-height: 250px;
+}
+
+/* line 435, ../sass/screen.scss */
+.color-input-group {
+  width: 120px;
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 440, ../sass/screen.scss */
+.color-preview {
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #000;
+}
+/* line 448, ../sass/screen.scss */
+.color-preview .color-sample {
+  height: 40px;
+  display: block;
+  float: left;
+}
+
+/* line 454, ../sass/screen.scss */
+.new-color {
+  margin-left: 15px;
+}
+
+/* line 457, ../sass/screen.scss */
+.color-preview-column {
+  text-align: center;
+}
+
+/* line 460, ../sass/screen.scss */
+.single-color-holder {
+  width: 120px;
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 466, ../sass/screen.scss */
+.color-component-remove {
+  cursor: pointer;
+  color: #fff;
+  background-color: #ed7669;
+}
+/* line 470, ../sass/screen.scss */
+.color-component-remove:hover, .color-component-remove:active, .color-component-remove:focus {
+  background-color: #d62c1a;
+}
+
+/* line 475, ../sass/screen.scss */
+.lg-hr {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+/* Data tables related styles*/
+/* line 482, ../sass/screen.scss */
+.data-table-container {
+  margin-top: 20px;
+}
+/* line 485, ../sass/screen.scss */
+.data-table-container .dataTables_filter input[type=search] {
+  min-width: 350px;
+  background-image: url("/images/search.png");
+  background-repeat: no-repeat;
+  background-position: 97% center;
+}
+
+/* line 494, ../sass/screen.scss */
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:after {
+  font-family: 'FontAwesome';
+}
+
+/* line 498, ../sass/screen.scss */
+table.dataTable thead .sorting_asc:after {
+  content: "\f0de" !important;
+  font-size: 1.13333333em;
+}
+
+/* line 503, ../sass/screen.scss */
+table.dataTable thead .sorting_desc:after {
+  content: "\f0dd" !important;
+  font-size: 1.13333333em;
+}
+
+/* line 508, ../sass/screen.scss */
+table.dataTable thead .sorting:after {
+  content: "\f0dc" !important;
+  font-size: 1.13333333em;
+}
+
+/* line 515, ../sass/screen.scss */
+.dataTables_paginate .pagination .paginate_button {
+  padding: 0px;
+  border: none;
+  margin: 0px;
+}
+/* line 519, ../sass/screen.scss */
+.dataTables_paginate .pagination .paginate_button:hover, .dataTables_paginate .pagination .paginate_button:active, .dataTables_paginate .pagination .paginate_button:focus {
+  border: none;
+  background-color: transparent;
+}
+
+/* line 527, ../sass/screen.scss */
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+  border: none;
+}
+
+/* line 531, ../sass/screen.scss */
+table.dataTable thead th, table.dataTable thead td {
+  border-bottom: 2px solid #e8e8e8;
+}
+
+/* line 536, ../sass/screen.scss */
+table.dataTable tbody tr:last-child td {
+  border: none;
+}
+
+/* line 541, ../sass/screen.scss */
+table.dataTable.no-footer {
+  border-bottom: 2px solid #e8e8e8;
+}
+
+/* line 554, ../sass/screen.scss */
+.translation-catalog-select {
+  float: right;
+  width: 200px;
+}
+
+/* line 559, ../sass/screen.scss */
+.translation-catalog-edit {
+  float: right;
+  margin-left: 10px;
+}
+
+/* line 564, ../sass/screen.scss */
+.green {
+  color: green;
+}
+
+/* line 568, ../sass/screen.scss */
+.yellow {
+  color: darkgoldenrod;
+}
+
+/* line 573, ../sass/screen.scss */
+.translation-briefing-table tr th, .translation-briefing-table tr td {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
+@media only screen and (max-width: 320px) {
+  /* line 580, ../sass/screen.scss */
+  .product-tile-wrapper {
+    width: 100%;
+  }
+
+  /* line 584, ../sass/screen.scss */
+  .index-list .product-tile-wrapper {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 320px) {
+  /* line 590, ../sass/screen.scss */
+  .product-tile-wrapper {
+    width: 100%;
+  }
+
+  /* line 594, ../sass/screen.scss */
+  .index-list .product-tile-wrapper {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 479px) {
+  /* line 600, ../sass/screen.scss */
+  .product-tile-wrapper {
+    width: 49.5%;
+  }
+
+  /* line 604, ../sass/screen.scss */
+  .index-list .product-tile-wrapper {
+    width: 49.5%;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /* line 611, ../sass/screen.scss */
+  .product-tile-wrapper {
+    width: 49.5%;
+  }
+
+  /* line 615, ../sass/screen.scss */
+  .index-list .product-tile-wrapper {
+    width: 49.5%;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 768px) {
+  /* line 621, ../sass/screen.scss */
+  .product-tile-wrapper {
+    width: 32.9%;
+  }
+
+  /* line 625, ../sass/screen.scss */
+  .index-list .product-tile-wrapper {
+    width: 32.9%;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /* line 632, ../sass/screen.scss */
+  .product-tile-wrapper {
+    width: 32.9%;
+  }
+
+  /* line 636, ../sass/screen.scss */
+  .index-list .product-tile-wrapper {
+    width: 24.5%;
+  }
+
+  /* line 641, ../sass/screen.scss */
+  #main-footer .left-col {
+    text-align: left;
+  }
+  /* line 644, ../sass/screen.scss */
+  #main-footer .right-col {
+    text-align: right;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /* line 652, ../sass/screen.scss */
+  .product-tile-wrapper {
+    width: 24.5%;
+  }
+
+  /* line 656, ../sass/screen.scss */
+  .index-list .product-tile-wrapper {
+    width: 24.5%;
+  }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /* line 664, ../sass/screen.scss */
+  .product-tile-wrapper {
+    width: 19.5%;
+  }
+
+  /* line 668, ../sass/screen.scss */
+  .index-list .product-tile-wrapper {
+    width: 14.2%;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-offcanvas",
+  "version": "2.1.0",
+  "authors": [
+    "Phil Hughes <me@iamphill.com>"
+  ],
+  "main": [
+    "dist/css/bootstrap.offcanvas.min.css",
+    "dist/js/bootstrap.offcanvas.js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}

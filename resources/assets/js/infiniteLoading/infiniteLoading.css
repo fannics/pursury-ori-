@@ -1,0 +1,43 @@
+/* line 8, ../sass/screen.scss */
+.modal.loading-modal .modal-dialog .modal-content {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+/* line 12, ../sass/screen.scss */
+.modal.loading-modal .modal-dialog .modal-content .modal-header {
+  padding: 7px;
+}
+/* line 14, ../sass/screen.scss */
+.modal.loading-modal .modal-dialog .modal-content .modal-header .modal-title {
+  font-size: 18px;
+  text-align: center;
+  margin: 0px;
+  color: #696969;
+  font-weight: normal;
+}
+/* line 53, ../sass/screen.scss */
+.modal.loading-modal .modal-dialog .modal-content .modal-body .message-wrapper {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 15px;
+  width: 100%;
+  min-height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  background-color: #e8e8e8;
+}
+
+.modal.loading-modal .modal-dialog .modal-content .modal-body .persistent-messages {
+  margin-top: 25px;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.modal.loading-modal .modal-dialog .modal-content .modal-body .persistent-messages .success {
+  color: green;
+}
+
+.modal.loading-modal .modal-dialog .modal-content .modal-body .persistent-messages .error {
+  color: red;
+}

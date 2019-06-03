@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <link href="/es/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <style>
+            .text-center{
+                text-align: center;
+            }
+            .text-left{
+                text-align: left;
+            }
+            .date-cell{
+                width: 150px;
+            }
+            .result-cell{
+                width: 150px;
+            }
+            #log-container{
+                height: 390px;
+                overflow-y: auto;
+            }
+            .error-list li{
+                color: red;
+            }
+        </style>
+        <script type="text/javascript">
+
+            var autoscrolling = true;
+            var firstTime = true;
+
+            window.updateAutoscroll = function(){
+                //initial round
+                if (firstTime){
+                    document.getElementById('log-container').addEventListener('mousewheel', function(){
+                        if (this.scrollHeight - this.scrollTop == this.clientHeight ){
+                            autoscrolling = true;
+                        } else {
+                            autoscrolling = false;
+                        }
+                    });
+                    firstTime = false;
+                }
+
+                if (autoscrolling){
+                    document.getElementById('log-container').scrollTop = document.getElementById('log-container').scrollHeight;
+                }
+            };
+        </script>
+    </head>
+    <body>
+        <div id="log-container">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">

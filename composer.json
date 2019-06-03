@@ -1,0 +1,59 @@
+{
+	"name": "laravel/laravel",
+	"description": "The Laravel Framework.",
+	"keywords": ["framework", "laravel"],
+	"license": "MIT",
+	"type": "project",
+	"require": {
+		"laravel/framework": "5.4.*",
+		"laravel/socialite": "^2.0",
+		"goodby/csv": "^1.2",
+		"elasticsearch/elasticsearch": "^2.1",
+		"rap2hpoutre/laravel-log-viewer": "^0.5.3",
+	  	"efriandika/laravel-settings": "dev-master",
+		"laravelcollective/html": "~5.0",
+		"waavi/translation": "2.2.x",
+		"maatwebsite/excel": "~2.1.0",
+		"jenssegers/rollbar": "^1.5",
+		"doctrine/dbal": "^2.5"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~5.7",
+		"phpspec/phpspec": "~2.1",
+		"symfony/dom-crawler": "3.1.*",
+		"symfony/css-selector": "3.1.*"
+	},
+	"autoload": {
+		"classmap": [
+			"database"
+		],
+		"psr-4": {
+			"ProjectCarrasco\\": "app/"
+		},
+	  	"files": [
+		  "app/Helpers/prefixed_route_helper.php"
+		]
+	},
+	"autoload-dev": {
+		"classmap": [
+			"tests/TestCase.php"
+		]
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"php artisan clear-compiled",
+			"php artisan optimize"
+		],
+		"post-update-cmd": [
+			"php artisan clear-compiled",
+			"php artisan optimize"
+		],
+		"post-create-project-cmd": [
+			"php -r \"copy('.env.example', '.env');\"",
+			"php artisan key:generate"
+		]
+	},
+	"config": {
+		"preferred-install": "dist"
+	}
+}
